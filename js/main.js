@@ -21,7 +21,8 @@ btn.forEach(el=>{
                 screen.value = screenValue;
                 break;
             case "=":
-                screen.value = eval(screenValue);
+                screenValue = eval(screenValue);
+                screen.value = screenValue??'';
                 screenValue = '';
                 break;
             default:
