@@ -26,15 +26,19 @@ html {
     /* border: 2px solid black; */
     width: 28rem;
     background-color: black;
-    /* display: ; */
   }
 
   .calculation-section{
     height: 15%;
     width: 80%;
     margin: 4rem auto 0 auto;
+    display: block;
+    pointer-events: none;
     /* border: 2px solid red; */
     background-color: white;
+    text-align: right;
+    font-weight: 900;
+    font-size: 1.5rem;
   }
 
   .button-section{
@@ -63,7 +67,11 @@ html {
   }
 
   button:active{
-    transform: translateY(4px);
+    transform: translateY(3px);
+  }
+
+  .clearButton{
+    background-color: red;
   }
 
 
