@@ -22,15 +22,15 @@ html {
 
   .container{
     border-radius: 2rem;
-    height: 85%;
-    /* border: 2px solid black; */
+    /* height: 85%; */
+    padding-bottom: 6rem;
+    border: 2px solid red;
     width: 28rem;
     background-color: black;
   }
 
   .calculation-section{
-    height: 15%;
-    width: 80%;
+    padding: 1rem;
     margin: 4rem auto 0 auto;
     display: block;
     pointer-events: none;
@@ -58,7 +58,7 @@ html {
     border: none;
     border-radius: 100%;
     padding: 6%;
-    margin: 0.5rem;
+    margin: 0.4rem;
     cursor: pointer;
   }
 
@@ -75,14 +75,4 @@ html {
   }
 
 
-  @media (max-width:500px) {
-    .container{
-      height: 100%;
-      border-radius: 0;
-    }
-
-    .button-section{
-      margin-top: 5rem;
-    }
-
-  }
+  
