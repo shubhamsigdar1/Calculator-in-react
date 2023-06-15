@@ -1,10 +1,11 @@
 import Button from "./Button";
 import ButtonContainer from "./ButtonContainer";
+import './App.css'
 
-export default App() {
+export default function App() {
   return (
     <ButtonContainer>
-        <Button></Button>
+        <Button/>
     </ButtonContainer>
   );
 }
